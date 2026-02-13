@@ -1,0 +1,37 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set Pages env
+        run: |
+          REPO_NAME="${GITHUB_REPOSITORY#*/}"
+          if [ "$REPO_NAME" = "${GITHUB_REPOSITORY_OWNER}.github.io" ]; then
+            echo "BASE=/" >> "$GITHUB_ENV"
+          else
+            echo "BASE=/$REPO_NAME/" >> "$GITHUB_ENV"
+          fi
+          echo "SITE=https://${GITHUB_REPOSITORY_OWNER}.github.io" >> "$GITHUB_ENV"
+
+      - name: Deploy with Astro
+        uses: withastro/action@v3
+        with:
+          package-manager: npm
