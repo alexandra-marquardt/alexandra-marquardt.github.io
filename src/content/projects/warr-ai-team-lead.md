@@ -1,6 +1,6 @@
 ---
-title: "AI Team Lead - TUM Student Club"
-description: "Led ML development for space debris impact prediction in a launched satellite mission."
+title: "AI Team Lead - WARR at TUM"
+description: "Led a 5-person ML team at TUM's largest space engineering student organization for a satellite mission launched in 2024."
 date: 2024-08-01
 featured: true
 tags: ["Space", "AI", "Satellite", "Deep Learning"]
@@ -10,10 +10,11 @@ links:
   # writeup: "https://github.com/oscarbreiner"
 ---
 
-Served as AI team lead in WARR Student Club, driving applied ML for aerospace mission objectives.
+Served as AI team lead at WARR, TUM's largest space engineering student organization, driving applied ML for real mission constraints and aerospace workflows.
 
 ## Highlights
 
 - Contributed to a satellite mission launched in 2024.
-- Led a team of 5 engineers and researchers.
-- Built ML methods for space debris impact prediction.
+- Led a team of 5 developing ML for space debris impact prediction.
+- Collaborated across software and hardware interfaces under mission timelines.
+- Previously developed embedded flight software for satellite subsystems using C++ and ARM Assembly.

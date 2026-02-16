@@ -9,7 +9,7 @@ links:
   github: "https://github.com/oscarbreiner/Uncertainty-Quantification-on-GNN-using-Stochastic-Centering.git"
 ---
 
-Investigated scalable uncertainty estimation for GNNs, focusing on robustness under realistic distribution shifts and comparing implicit ensemble-style approaches against standard baselines.
+Research project at the DAML (Data Analytics and Machine Learning) Lab of Prof. Stephan Günnemann, investigating scalable uncertainty estimation for GNNs with a focus on robustness under realistic distribution shifts and comparisons against standard baselines.
 
 ## Highlights
 

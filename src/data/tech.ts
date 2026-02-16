@@ -14,7 +14,7 @@ export const techGroups: TechGroup[] = [
   },
   {
     title: 'Tools / Systems',
-    items: ['Git', 'Docker', 'ROS 2', 'Matlab', 'Hydra', 'Slurm', 'Wandb', 'AWS', 'ROS 2', 'Linux', 'Microcontrollers']
+    items: ['Git', 'Docker', 'ROS 2', 'Matlab', 'Hydra', 'Slurm', 'Wandb', 'AWS', 'Linux', 'Microcontrollers']
   },
   {
     title: 'Modalities',

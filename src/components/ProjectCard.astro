@@ -13,9 +13,12 @@ const tagDataset = tags.map((tag) => tag.toLowerCase()).join('|');
 ---
 
 <article
-  class="project-card surface-card group flex h-full flex-col overflow-hidden transition duration-200 hover:-translate-y-1 hover:shadow-card"
+  class="project-card surface-card group flex h-full cursor-pointer flex-col overflow-hidden transition duration-200 hover:-translate-y-1 hover:shadow-card"
   data-project-card
+  data-project-url={withBase(`/projects/${project.slug}`)}
   data-tags={tagDataset}
+  tabindex="0"
+  role="link"
 >
   <div class="relative">
     <img src={withBase(image)} alt={title} class="h-52 w-full border-b border-border object-cover" loading="lazy" />
@@ -48,3 +51,36 @@ const tagDataset = tags.map((tag) => tag.toLowerCase()).join('|');
     </div>
   </div>
 </article>
+
+<script>
+  if (!window.__projectCardNavigationBound) {
+    const isInteractive = (target) => target instanceof Element && !!target.closest('a, button, input, select, textarea, label');
+
+    document.addEventListener('click', (event) => {
+      const target = event.target;
+      if (isInteractive(target)) return;
+
+      const card = target instanceof Element ? target.closest('[data-project-url]') : null;
+      const href = card?.getAttribute('data-project-url');
+      if (!href) return;
+
+      window.location.href = href;
+    });
+
+    document.addEventListener('keydown', (event) => {
+      if (!(event.target instanceof Element)) return;
+      if (isInteractive(event.target)) return;
+
+      const card = event.target.closest('[data-project-url]');
+      const href = card?.getAttribute('data-project-url');
+      if (!href) return;
+
+      if (event.key === 'Enter' || event.key === ' ') {
+        event.preventDefault();
+        window.location.href = href;
+      }
+    });
+
+    window.__projectCardNavigationBound = true;
+  }
+</script>

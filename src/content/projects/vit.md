@@ -9,7 +9,7 @@ links:
   github: "https://github.com/oscarbreiner/Review-on-Vision-Transformers.git"
 ---
 
-Wrote a structured review on Vision Transformers, covering core self-attention foundations and how transformer architectures were adapted from NLP to computer vision.
+Project at the DAML (Data Analytics and Machine Learning) Lab of Prof. Stephan Günnemann: wrote a structured review on Vision Transformers, covering core self-attention foundations and how transformer architectures were adapted from NLP to computer vision.
 
 ## Highlights
 

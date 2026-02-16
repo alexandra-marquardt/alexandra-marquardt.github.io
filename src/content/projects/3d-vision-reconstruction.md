@@ -10,16 +10,13 @@ links:
   github: "https://github.com/oscarbreiner/3dgs-mcmc-boosted.git"
 ---
 
-Improved MCMC-based 3D Gaussian Splatting by replacing opacity-based relocation and exploration with visibility-driven and error-guided sampling signals, leading to more stable training and higher reconstruction quality.
-
-Baseline: MCMC-based 3D Gaussian Splatting uses probabilistic sampling to enable stable reconstruction without requiring 
-Structure-from-Motion (SfM) initialization.
+Research project at the 3D AI Lab of Prof. Angela Dai, improving MCMC-based 3D Gaussian Splatting for more reliable optimization under difficult initial conditions.
 
 ## Highlights
 
-- Introduced visibility- and error-based relocation/exploration strategies.
-- Robust reconstruction across both simple and challenging scenes.
-- Stable training without reliance on SfM initialization.
+- Developed a probabilistic sampling strategy that improves exploration of Gaussian proposals.
+- Reduced collapse under poor initialization through stabilized early densification and parameter updates.
+- Achieved SfM-free reconstruction while maintaining robust quality across challenging scenes.
 
 ---
 

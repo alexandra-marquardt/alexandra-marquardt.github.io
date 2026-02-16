@@ -1,6 +1,6 @@
 ---
-title: "Multimodality Model Merging"
-description: "Model fusion via subspace parameter compression under compute constraints."
+title: "Multimodal Model Merging"
+description: "Model fusion via compact subspace parameter compression for fast expert-model merging under compute constraints."
 date: 2025-12-10
 featured: true
 tags: ["Model Merging", "Multimodal", "Deep Learning"]
@@ -10,13 +10,13 @@ links:
   # writeup: "https://github.com/oscarbreiner"
 ---
 
-Worked on model fusion strategies that preserve performance while reducing compute demands.
+Research project at the lab of Prof. Daniel Cremers under the supervision of Dr. Almut Sophia Koepke, focused on practical model fusion strategies that preserve performance while reducing compute demands.
 
 ## Highlights
 
-- Applied subspace parameter compression for multimodal model merging.
-- Reached competitive results with lower computational requirements.
-- Focused on practical methods for constrained deployment settings.
+- Built a model fusion method that compresses fine-tuned updates into a compact parameter subspace.
+- Enabled fast merging of multiple expert models with minimal compute overhead.
+- Achieved competitive accuracy while improving deployment efficiency.
 
 ---
 

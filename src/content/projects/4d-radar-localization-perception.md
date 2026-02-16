@@ -1,6 +1,6 @@
 ---
 title: "4D Radar Localization & Perception"
-description: "World Champion at A2RL 2025. Built a robust 4D radar-only localization and perception pipeline for autonomous racing at 300 km/h."
+description: "Part of the A2RL 2025 World Champion team. Built 4D radar-only localization and perception with robust odometry and Doppler de-aliasing at 250+ km/h."
 date: 2026-03-15
 featured: true
 tags: ["Radar", "Localization", "Perception", "Autonomous Racing"]
@@ -10,14 +10,14 @@ links:
   #writeup: "https://github.com/oscarbreiner"
 ---
 
-Developed a 4D radar-only localization and perception pipeline for high-speed autonomous racing, designed to remain stable under vibration, noise, and Doppler ambiguity at up to 300 km/h.
+Built a 4D radar-only localization and perception stack for high-speed autonomous racing, designed to remain stable under vibration, sensor noise, and Doppler ambiguity at race speeds.
 
-## Highlights: 
+## Highlights
 
-- Stable radar odometry at speeds up to 300 km/h.
+- Delivered radar-only odometry and Doppler de-aliasing for ego-motion estimation.
+- Validated localization and perception at 250+ km/h in racing conditions.
 - Outperformed prior state-of-the-art baselines.
-- Research publication target: IROS 2026.
-- Contributed to a World Champion finish at A2RL 2025.
+- Contributed to a World Champion finish at A2RL 2025 and currently preparing publication for IROS 2026.
 
 ---
 
