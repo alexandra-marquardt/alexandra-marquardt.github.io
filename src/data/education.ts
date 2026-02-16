@@ -15,7 +15,7 @@ export const education: EducationEntry[] = [
     start: 'Apr 2024',
     end: 'Present',
     highlights: [
-      'Field focus: vision, machine learning, simulation, physics.'
+      'Research focus: Machine Learning for Vision & Physics, Embodied AI, High-Performance Computing.'
     ]
   },
   {
@@ -25,7 +25,8 @@ export const education: EducationEntry[] = [
     start: 'Oct 2020',
     end: 'Mar 2024',
     highlights: [
-      'Minor in electrical engineering.'
+      'Strong foundation in mathematics and computer science.',
+      'Minor in Electrical Engineering.'
     ]
   },
   {
