@@ -18,7 +18,7 @@ export const experience: ExperienceEntry[] = [
     bullets: [
       'Built multimodal machine learning models that improved prior AI performance.',
       'Designed MLOps infrastructure to boost engineering productivity and reduce costs.',
-      'Worked under real-world system constraints with a strong research-to-production loop.'
+      'Consulted teams on ML modeling, training strategies, and evaluation under real-world system constraints.'
     ],
     tech: ['Multimodal', 'MLOps', 'Deep Learning', 'Data Engineering']
   },
@@ -29,9 +29,9 @@ export const experience: ExperienceEntry[] = [
     start: '2023',
     end: '2024',
     bullets: [
-      'Contributed to a satellite mission launched in 2024.',
-      'Led a team of 5 developing ML models for space debris impact prediction.',
-      'Drove research execution under strict mission and system constraints.'
+      'Contributed to a satellite mission launched in 2024 as part of WARR, TUM’s largest space engineering student organization.',
+      'Led a 5-person ML team developing models for space debris impact prediction.',
+      'Previously developed embedded flight software for microcontrollers and satellite subsystems using C++ and ARM Assembly, while driving research execution under mission constraints.'
     ],
     tech: ['Deep Learning', 'Leadership', 'Embedded Systems']
   },
@@ -55,8 +55,8 @@ export const experience: ExperienceEntry[] = [
     start: 'Oct 2022',
     end: 'Feb 2023',
     bullets: [
-      'Developed an iOS application from scratch using Swift and Google Firebase.',
-      'Implemented 3D scanning, mapping, and augmented reality features.',
+      'Developed an iOS application from scratch using Swift and Google Firebase in collaboration with Apple Munich.',
+      'Implemented 3D scanning, mapping, and augmented reality (AR) features.',
       'Shipped user-facing functionality with end-to-end app engineering ownership.'
     ],
     tech: ['Swift', 'Firebase', '3D Scanning', 'AR']

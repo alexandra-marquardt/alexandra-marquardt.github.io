@@ -1,6 +1,6 @@
 ---
 title: "3D Vision Reconstruction"
-description: "MCMC-based 3D Gaussian Splatting with probabilistic sampling improvements."
+description: "Improving 3DGS-MCMC with hybrid error-opacity scoring and visibility-based Gaussian relocation."
 date: 2026-02-23
 featured: true
 tags: ["Vision", "Reconstruction", "Deep Learning"]
@@ -10,14 +10,16 @@ links:
   github: "https://github.com/oscarbreiner/3dgs-mcmc-boosted.git"
 ---
 
-Research project at the 3D AI Lab of Prof. Angela Dai, improving MCMC-based 3D Gaussian Splatting for more reliable optimization under difficult initial conditions.
+Research project at the 3D AI Lab of Prof. Angela Dai on improving Markov Chain Monte Carlo 3D Gaussian Splatting (3DGS-MCMC) for more robust 3D reconstruction without Structure-from-Motion initialization.
 
 ## Highlights
 
-- Developed a probabilistic sampling strategy that improves exploration of Gaussian proposals.
-- Reduced collapse under poor initialization through stabilized early densification and parameter updates.
-- Achieved SfM-free reconstruction while maintaining robust quality across challenging scenes.
+- Replaced opacity-only "faithfulness" scoring with a hybrid signal that combines opacity and rendering error contribution, making it easier to remove high-error artifacts.
+- Added a visibility-based relocation heuristic that better identifies dominating Gaussians and improves reconstruction of walls and other large planar surfaces.
+- Evaluated the method on Mip-NeRF360 and ScanNet++, outperforming the 3DGS-MCMC baseline on most ScanNet++ scenes.
 
 ---
 
-> **Note:** Competition code cannot be shared. Selected components will be released publicly if the IROS 2026 submission is accepted.
+Standard 3D Gaussian Splatting delivers fast, high-quality novel view synthesis, but it depends heavily on heuristic density control and strong initialization. 3DGS-MCMC removes several of these constraints by framing optimization as an MCMC process, allowing Gaussians to explore the scene more freely and enabling reconstruction without SfM. However, the baseline uses opacity alone as a proxy for whether a Gaussian is "faithful", which often misses high-opacity artifacts and struggles on broad surfaces such as walls.
+
+This project improves that baseline in two ways. First, it introduces a hybrid noise term based on both opacity and error contribution, which more reliably suppresses harmful artifacts. Second, it uses visibility-aware relocation to target problematic Gaussians more precisely, leading to stronger surface coverage and better planar reconstruction. In practice, these changes are especially helpful on failure cases where the original 3DGS-MCMC method breaks down.
