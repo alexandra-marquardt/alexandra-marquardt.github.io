@@ -1,12 +1,12 @@
 export const profileDetails = {
   languages: [
     'English (Bilingual, C2)',
-    'German (Native tongue)',
+    'German (Native)',
     'French (B1)',
     'Japanese (Basics)'
   ],
   certificates: [
-    'German Federal Scholarship',
+    'Deutschlandstipendium – German National Scholarship (Top 1.2% nationwide)',
     'German Physical Society Award',
     'CrossFit Coach License'
   ],

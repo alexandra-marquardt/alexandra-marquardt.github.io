@@ -15,7 +15,7 @@ export const education: EducationEntry[] = [
     start: 'Apr 2024',
     end: 'Present',
     highlights: [
-      'Research focus: Machine Learning for Vision & Physics, Embodied AI, High-Performance Computing.'
+      'Research focus: AI for Vision & Robotics, 3D Reconstruction, Physics-informed ML.'
     ]
   },
   {

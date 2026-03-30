@@ -6,7 +6,20 @@ export type TechGroup = {
 export const techGroups: TechGroup[] = [
   {
     title: 'AI / Research',
-    items: ['AI in Vision & Physics', '3D Reconstruction', 'Robotics', 'Machine Learning', 'SLAM & Odometry', 'Surogote Models', 'LLM & LMM', 'Multimodal Learning', 'Model Merging', 'Foundation Models', 'MLOps']
+    items: [
+      'AI in Vision, Robotics & Physics',
+      '4D Radar Perception',
+      '3D Reconstruction',
+      'Robotics',
+      'Machine Learning',
+      'SLAM & Odometry',
+      'Surrogate Models',
+      'LLM & LMM',
+      'Multimodal Learning',
+      'Model Merging',
+      'Foundation Models',
+      'MLOps'
+    ]
   },
   {
     title: 'Programming',
@@ -18,6 +31,6 @@ export const techGroups: TechGroup[] = [
   },
   {
     title: 'Modalities',
-    items: ['Text', 'Vision', '4D Radar', '3D Vision', 'Lidar', 'IMU', 'Physics Signals', 'Graphs', 'Time Series']
+    items: ['Vision', '4D Radar', 'Lidar', 'Text', 'Graphs', 'Time Series']
   }
 ];
