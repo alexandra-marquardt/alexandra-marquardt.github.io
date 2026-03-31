@@ -1,14 +1,13 @@
 export const profileDetails = {
   languages: [
-    'English (Bilingual, C2)',
     'German (Native)',
-    'French (B1)',
-    'Japanese (Basics)'
+    'English (C2)',
+    'French (B2)',
+    'Japanese (A2)'
   ],
   certificates: [
-    'Deutschlandstipendium – German National Scholarship (Top 1.2% nationwide)',
-    'German Physical Society Award',
-    'CrossFit Coach License'
+    'Studienstiftung des Deutschen Volkes – German Academic Scholarship Foundation (Top 1% nationwide)',
+    'More?'
   ],
-  passions: ['Competitive Rowing', 'Olympic Weightlifting']
+  passions: ['TODO']
 };

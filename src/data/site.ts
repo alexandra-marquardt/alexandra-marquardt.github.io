@@ -1,17 +1,17 @@
 export const siteData = {
-  name: 'Oscar Breiner',
+  name: 'Alexandra Marquardt',
   title: 'TUM M.Sc. Informatics Student',
-  tagline: 'Theory-first when it matters. System-first when it counts.',
+  tagline: 'TODO',
   location: 'Munich, Germany',
   email: '',
-  githubUrl: 'https://github.com/oscarbreiner',
-  linkedinUrl: 'https://linkedin.com/in/oscarbreiner',
+  githubUrl: 'https://github.com/alexandra-marquardt',
+  linkedinUrl: 'https://linkedin.com/in/alexandramarquardt',
   cvPath: 'cv.pdf',
-  heroChips: ['Machine Learning', 'Perception', 'Embodied AI', 'AI in Vision, Physics, and Robotics'],
+  heroChips: ['Machine Learning', 'AI in Medical Imaging, Interventional Radiology and Neuroscience', 'Medical Augmented Reality'],
 };
 
 export const seo = {
-  title: `${siteData.name} | AI & Perception Research`,
-  description: 'Portfolio of Oscar Breiner: AI, perception, radar, 3D vision, and robotics research with production-focused engineering.',
+  title: `${siteData.name} | Medical Informatics Research`,
+  description: 'Portfolio of Alexandra Marquardt: AI and augmented reality for medicine with focus on real-world clinical impact.',
   ogImage: 'public/images/champion.jpeg'
 };
