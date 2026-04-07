@@ -35,7 +35,7 @@ const educationItems = education.map((item) => ({
 
 const personalCards = [
   { title: 'Languages', items: profileDetails.languages },
-  { title: 'Certificates', items: profileDetails.certificates },
+  { title: 'Scholarships', items: profileDetails.scholarships },
   { title: 'Passions', items: profileDetails.passions }
 ];
 ---
@@ -184,7 +184,7 @@ const personalCards = [
     </section>
 
     <section class="section-spacing">
-      <SectionHeader title="Personal" subtitle="Languages, certificates, and interests." />
+      <SectionHeader title="Personal" subtitle="Languages, scholarships, and interests." />
       <div class="grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-12">
         {personalCards.map((card, idx) => (
           <article
