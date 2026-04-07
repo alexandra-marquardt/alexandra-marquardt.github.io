@@ -7,7 +7,7 @@ export const siteData = {
   githubUrl: 'https://github.com/alexandra-marquardt',
   linkedinUrl: 'https://linkedin.com/in/alexandramarquardt',
   cvPath: 'cv.pdf',
-  heroChips: ['Machine Learning', 'AI in Medical Imaging, Interventional Radiology and Neuroscience', 'Medical Augmented Reality'],
+  heroChips: ['Machine Learning', 'AI in Medicine and Neuroscience', 'Medical Augmented Reality', 'Image Fusion for Interventional Radiology'],
 };
 
 export const seo = {

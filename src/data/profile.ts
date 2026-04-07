@@ -5,9 +5,9 @@ export const profileDetails = {
     'French (B2)',
     'Japanese (A2)'
   ],
-  certificates: [
-    'Studienstiftung des Deutschen Volkes – German Academic Scholarship Foundation (Top 1% nationwide)',
-    'More?'
+  scholarships: [
+    'Studienstiftung des Deutschen Volkes – German Academic Scholarship Foundation',
+    'TUM:Junge Akademie Research Scholarship'
   ],
-  passions: ['TODO']
+  passions: ['Ballroom Dancing', 'Competitive Climbing']
 };

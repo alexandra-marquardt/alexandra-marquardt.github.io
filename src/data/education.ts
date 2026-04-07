@@ -12,10 +12,10 @@ export const education: EducationEntry[] = [
     degree: 'M.Sc. Informatics',
     university: 'Technical University of Munich (TUM)',
     location: 'Munich, Germany',
-    start: 'Apr 2024',
+    start: 'Oct 2024',
     end: 'Present',
     highlights: [
-      'Research focus: AI for Vision & Robotics, 3D Reconstruction, Physics-informed ML.'
+      'Research focus: AI for Medical Imaging and Neuroscience, Medical Augmented Reality'
     ]
   },
   {
@@ -23,17 +23,17 @@ export const education: EducationEntry[] = [
     university: 'Technical University of Munich (TUM)',
     location: 'Munich, Germany',
     start: 'Oct 2020',
-    end: 'Mar 2024',
+    end: 'Sep 2023',
     highlights: [
       'Strong foundation in mathematics and computer science.',
-      'Minor in Electrical Engineering.'
+      'Minor in Medicine.'
     ]
   },
   {
     degree: 'Allgemeines Abitur / Highschool Diploma',
-    university: 'Gymnasium Eltville',
-    location: 'Eltville, Germany',
-    start: 'Sep 2011',
+    university: 'Anna Schmidt Schule',
+    location: 'Frankfurt, Germany',
+    start: 'Sep 2012',
     end: 'Jul 2020',
     highlights: [
     ]

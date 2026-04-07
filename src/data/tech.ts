@@ -7,30 +7,25 @@ export const techGroups: TechGroup[] = [
   {
     title: 'AI / Research',
     items: [
-      'AI in Vision, Robotics & Physics',
-      '4D Radar Perception',
-      '3D Reconstruction',
-      'Robotics',
+      'AI in Medical Imaging and Neuroscience',
+      'Image Fusion for Interventional Radiology',
+      'Medical Augmented Reality',
+      '3D Reconstruction from Medical Images',
+      'Intraoperative Navigation',
       'Machine Learning',
-      'SLAM & Odometry',
-      'Surrogate Models',
-      'LLM & LMM',
-      'Multimodal Learning',
-      'Model Merging',
-      'Foundation Models',
-      'MLOps'
+      'Multimodal Learning'
     ]
   },
   {
     title: 'Programming',
-    items: ['Python', 'Java', 'C++', 'Assembly', 'Swift', 'SQL']
+    items: ['Python', 'C++', 'Java', 'C#', 'SQL', 'Assembly', 'HTML/CSS', 'JavaScript', 'Typescript']
   },
   {
     title: 'Tools / Systems',
-    items: ['Git', 'Docker', 'ROS 2', 'Matlab', 'Hydra', 'Slurm', 'Wandb', 'AWS', 'Linux', 'Microcontrollers']
+    items: ['Git', 'Docker', 'Hydra', 'Slurm', 'Wandb', 'Linux']
   },
   {
     title: 'Modalities',
-    items: ['Vision', '4D Radar', 'Lidar', 'Text', 'Graphs', 'Time Series']
+    items: ['Medical Images (DICOM)', 'Live Tracking Data', 'Text', 'Graphs', 'Time Series']
   }
 ];
