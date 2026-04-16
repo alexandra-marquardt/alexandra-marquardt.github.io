@@ -2,7 +2,7 @@
 title: "GNN Uncertainty Estimation"
 description: "Researched uncertainty quantification for graph neural networks under distribution shift."
 date: 2024-08-01
-featured: true
+featured: false
 tags: ["Graph Neural Networks", "Uncertainty", "Deep Learning"]
 image: "/images/projects/gnn.png"
 links:

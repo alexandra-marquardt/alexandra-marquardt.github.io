@@ -10,6 +10,19 @@ export type ExperienceEntry = {
 
 export const experience: ExperienceEntry[] = [
   {
+    role: "Visting Researcher",
+    company: "Kyoto Univeresity",
+    location: "Kyoto, Japan",
+    start: "Oct 2025",
+    end: "Mar 2026",
+    bullets: [
+      "Reconstructed visual stimuli from human brain activity using deep neural networks", 
+      "Achieved improved color reconstruction by introducing a novel reconstruction objective.",
+      "Provided a proof-of-concept to reconstruct visual color illusions and color constancy mechanisms."
+    ],
+    tech: ['Deep Learning', 'Neuroscience', 'fMRI Acquisition and Analysis']
+  },
+  {
     role: 'R&D Software Engineer',
     company: 'Brainlab AG',
     location: 'Munich, Germany',
@@ -23,6 +36,18 @@ export const experience: ExperienceEntry[] = [
     ],
     tech: ['Augmented Reality', 'Software Engineering', 'Medical Imaging', 'Deep Learning']
   },
+  {
+    role: 'Research Assistant',
+    company: 'Forschungszentrum Jülich',
+    location: 'Jülich, Germany',
+    start: 'Aug 2024',
+    end: 'Sep 2024',
+    bullets: [
+      'Developed a General Adversarial Network (GAN) for super-resolution of brain scans acquired via Polarized Light Imaging (PLI).', 
+      'Achieved plausible reconstruction of microscopic structures with a resolution increase factor of 32 from macroscopic images.',
+    ], 
+    tech: ['Deep Learning', 'Polarized Light Imaging', 'Slurm']
+  },  
   {
     role: 'Teaching Assistant',
     company: 'Technical University of Munich (TUM)',

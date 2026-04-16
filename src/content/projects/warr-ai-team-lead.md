@@ -2,7 +2,7 @@
 title: "AI Team Lead - WARR at TUM"
 description: "Led a 5-person ML team at TUM's largest space engineering student organization for a satellite mission launched in 2024."
 date: 2024-08-01
-featured: true
+featured: false
 tags: ["Space", "Satellite", "Deep Learning", "Space"]
 image: "/images/projects/warr_cube_sat.jpeg"
 links:

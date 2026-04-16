@@ -2,7 +2,7 @@
 title: "Review on Vision Transformers"
 description: "Surveyed the evolution of Vision Transformers and key design strategies bridging CNNs and attention-based vision models."
 date: 2024-08-01
-featured: true
+featured: false
 tags: ["Vision", "Deep Learning", "Survey"]
 image: "/images/projects/vit.webp"
 links:

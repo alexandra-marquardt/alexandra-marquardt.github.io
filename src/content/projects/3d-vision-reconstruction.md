@@ -2,7 +2,7 @@
 title: "3D Vision Reconstruction"
 description: "Improving 3DGS-MCMC with hybrid error-opacity scoring and visibility-based Gaussian relocation."
 date: 2026-02-23
-featured: true
+featured: false
 tags: ["Vision", "Reconstruction", "Deep Learning"]
 image: "/images/projects/3d_gaussian_splatting.jpg"
 links:

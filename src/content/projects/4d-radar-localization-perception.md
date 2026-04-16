@@ -2,7 +2,7 @@
 title: "4D Radar Localization & Perception"
 description: "Part of the A2RL 2025 World Champion team. Built 4D radar-only localization and perception with robust odometry and Doppler de-aliasing at 250+ km/h."
 date: 2026-03-15
-featured: true
+featured: false
 tags: ["Radar", "Localization", "Perception", "Autonomous Racing"]
 image: "/images/projects/tum_racing.JPG"
 links:

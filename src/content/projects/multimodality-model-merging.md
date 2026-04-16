@@ -2,7 +2,7 @@
 title: "Multimodal Model Merging"
 description: "Model fusion via compact subspace parameter compression for fast expert-model merging under compute constraints."
 date: 2025-12-10
-featured: true
+featured: false
 tags: ["Model Merging", "Multimodal", "Deep Learning", "Vision"]
 image: "/images/projects/model_merging.jpg"
 links:

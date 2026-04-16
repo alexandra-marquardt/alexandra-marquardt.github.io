@@ -1,7 +1,7 @@
 ---
 title: "ROS 2 on Apple Silicon using Lima"
 date: 2025-06-10
-featured: true
+featured: false
 description: "Lightweight Ubuntu 22.04 VM for ROS 2 Humble on Apple Silicon, with GUI, Docker socket reuse, and amd64 support via Rosetta."
 tags: ["ROS2", "Apple Silicon", "Lima", "Docker"]
 image: "/images/projects/ros.svg"
