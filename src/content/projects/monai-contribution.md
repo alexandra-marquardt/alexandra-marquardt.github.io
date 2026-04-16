@@ -4,7 +4,7 @@ description: "Open-source contribution to MONAI. Added a new neural network arch
 date: 2023-03-15
 featured: true
 tags: ["Deep Learning", "Medical Imaging", "Open-source Contribution"]
-image: "/images/projects/tum_racing.JPG"
+image: "/images/projects/monai-logo.png"
 links:
   github: "https://github.com/Project-MONAI/MONAI" 
   #writeup: "https://github.com/oscarbreiner"
