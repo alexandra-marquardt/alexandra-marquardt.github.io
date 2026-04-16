@@ -1,7 +1,7 @@
 ---
 title: "Healthy Habit Formation via Small Daily Tasks"
 description: "TUM:Junge Akademie research scholarship project on healthy habit formation. Combined behavior research with app development to turn personalized daily tasks into a social, testable intervention."
-date: 2023-03-15
+date: 2024-06-15
 featured: true
 tags: ["Health Sciences", "App Development"]
 image: "/images/projects/tum_racing.JPG"
