@@ -5,6 +5,7 @@ date: 2023-03-15
 featured: true
 tags: ["Deep Learning", "Medical Imaging", "Open-source Contribution"]
 image: "/images/projects/monai-logo-2.png"
+imagePosition: "center top"
 links:
   github: "https://github.com/Project-MONAI/MONAI" 
   #writeup: "https://github.com/oscarbreiner"
