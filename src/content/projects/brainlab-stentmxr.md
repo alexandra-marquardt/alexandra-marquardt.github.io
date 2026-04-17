@@ -4,7 +4,7 @@ description: "Research internship at Brainlab AG on mixed reality support for en
 date: 2024-08-01
 featured: true
 tags: ["Augmented Reality", "Magic Leap", "Endovascular Procedures", "Clinical Validation", "Interdisciplinary Work"]
-image: "/images/projects/tum_racing.JPG"
+image: "/images/projects/stentmxr-image.png"
 links:
   publication: ""
   #github: "https://github.com/Project-MONAI/MONAI" 

@@ -4,7 +4,8 @@ description: "TUM:Junge Akademie research scholarship project on healthy habit f
 date: 2024-06-15
 featured: true
 tags: ["Health Sciences", "App Development",  "Real-time Database Engineering"]
-image: "/images/projects/healthy-habits-image-2.png"
+image: "/images/projects/healthy-habits-image-3.png"
+#imagePosition: "50% 30%"
 links:
   github: "https://github.com/tumja-healthy-habits/tumjahh-app" 
   #writeup: "https://github.com/oscarbreiner"
