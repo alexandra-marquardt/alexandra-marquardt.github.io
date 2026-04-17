@@ -10,7 +10,7 @@ export type EducationEntry = {
 export const education: EducationEntry[] = [
   {
     degree: 'M.Sc. Informatics',
-    university: 'Technical University of Munich (TUM)',
+    university: 'Technical University Munich (TUM)',
     location: 'Munich, Germany',
     start: 'Oct 2024',
     end: 'Present',
@@ -20,7 +20,7 @@ export const education: EducationEntry[] = [
   },
   {
     degree: 'B.Sc. Informatics',
-    university: 'Technical University of Munich (TUM)',
+    university: 'Technical University Munich (TUM)',
     location: 'Munich, Germany',
     start: 'Oct 2020',
     end: 'Sep 2023',

@@ -50,7 +50,7 @@ export const experience: ExperienceEntry[] = [
   },  
   {
     role: 'Teaching Assistant',
-    company: 'Technical University of Munich (TUM)',
+    company: 'Technical University Munich (TUM)',
     location: 'Munich, Germany',
     start: 'Oct 2021',
     end: 'Apr 2023',
