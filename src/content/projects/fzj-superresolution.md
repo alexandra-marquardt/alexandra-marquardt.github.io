@@ -4,7 +4,7 @@ description: "Research project at Forschungszentrum Jülich on super-resolution 
 date: 2024-08-01
 featured: true
 tags: ["Generative Adversarial Networks", "Super-Resolution", "Deep Learning", "Polarized Light Imaging"]
-image: "/images/projects/fzj-image.png"
+image: "/images/projects/fzj-image-2.png"
 links:
   #github: "https://github.com/oscarbreiner/Uncertainty-Quantification-on-GNN-using-Stochastic-Centering.git"
 ---
