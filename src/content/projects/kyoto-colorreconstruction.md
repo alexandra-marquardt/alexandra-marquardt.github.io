@@ -4,7 +4,7 @@ description: "Research project at Kyoto University's Kamitani Lab on decoding pe
 date: 2025-10-01
 featured: true
 tags: ["Computational Neuroscience", "Deep Learning", "Color Perception"]
-image: "/images/projects/gnn.png"
+image: "/images/projects/kyoto-reconstruction-image.png"
 links:
   #github: "https://github.com/oscarbreiner/Uncertainty-Quantification-on-GNN-using-Stochastic-Centering.git"
 ---

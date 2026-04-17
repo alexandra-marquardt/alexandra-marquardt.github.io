@@ -5,7 +5,7 @@ export const siteData = {
   location: 'Munich, Germany',
   email: '',
   githubUrl: 'https://github.com/alexandra-marquardt',
-  linkedinUrl: 'https://linkedin.com/in/alexandramarquardt',
+  linkedinUrl: 'https://linkedin.com/in/alexandra-marquardt',
   cvPath: 'cv.pdf',
   heroChips: ['Machine Learning', 'AI in Medicine and Neuroscience', 'Medical Augmented Reality', 'Image Fusion for Interventional Radiology'],
 };
