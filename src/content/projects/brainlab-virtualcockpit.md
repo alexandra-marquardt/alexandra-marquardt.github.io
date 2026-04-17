@@ -4,7 +4,7 @@ description: "R&D Software Engineer at Brainlab AG focused on AR support in the 
 date: 2024-12-01
 featured: true
 tags: ["Augmented Reality", "Magic Leap", "Intraoperative Guidance", "Clinical Validation", "Interdisciplinary Work"]
-image: "/images/projects/tum_racing.JPG"
+image: "/images/projects/virtual-cockpit-image.png"
 links:
   #github: "https://github.com/Project-MONAI/MONAI" 
   #writeup: "https://github.com/oscarbreiner"
