@@ -4,7 +4,7 @@ description: "Research project at Kyoto University's Kamitani Lab on color const
 date: 2026-01-01
 featured: true
 tags: ["Computational Neuroscience", "Deep Learning", "Color Perception"]
-image: "/images/projects/gnn.png"
+image: "/images/projects/white.png"
 links:
   #github: "https://github.com/oscarbreiner/Uncertainty-Quantification-on-GNN-using-Stochastic-Centering.git"
 ---

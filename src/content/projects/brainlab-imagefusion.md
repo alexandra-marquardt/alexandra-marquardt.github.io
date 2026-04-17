@@ -4,7 +4,7 @@ description: "R&D Software Engineer at Brainlab AG working on multimodal image f
 date: 2025-06-01
 featured: true
 tags: ["Deep Learning", "Image Fusion", "Intraoperative Navigation", "Clinical Validation", "Interdisciplinary Work"]
-image: "/images/projects/tum_racing.JPG"
+image: "/images/projects/white.png"
 links:
   #github: "https://github.com/Project-MONAI/MONAI" 
   #writeup: "https://github.com/oscarbreiner"

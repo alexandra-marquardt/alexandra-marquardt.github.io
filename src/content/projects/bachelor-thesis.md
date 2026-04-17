@@ -4,7 +4,7 @@ description: "Bachelor's thesis at the lab of Prof. Nassir Navab (TUM). Studied 
 date: 2023-09-15
 featured: true
 tags: ["Deep Learning", "Ultrasound Imaging", "Attention Mechanisms"]
-image: "/images/projects/space_debris.jpeg"
+image: "/images/projects/white.png"
 links:
   #github: "https://github.com/oscarbreiner/Deep-Learning-Based-Space-Debris-Classification.git"
 ---

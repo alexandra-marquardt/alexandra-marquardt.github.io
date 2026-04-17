@@ -4,7 +4,7 @@ description: "Shared first-author IPCAI 2024 publication on ultrasound segmentat
 date: 2024-06-15
 featured: true
 tags: ["Deep Learning", "Ultrasound Imaging", "Attention Mechanisms", "Clinician-Inspired ML"]
-image: "/images/projects/space_debris.jpeg"
+image: "/images/projects/white.png"
 links:
   github: "https://github.com/alexandra-marquardt/segmentation-border-analysis"
   publication: "TODO"
