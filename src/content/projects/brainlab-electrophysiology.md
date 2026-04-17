@@ -5,6 +5,7 @@ date: 2025-03-01
 featured: true
 tags: ["Augmented Reality", "Magic Leap", "Electrophysiological Interventions", "Clinical Validation", "Interdisciplinary Work"]
 image: "/images/projects/cardio-image.png"
+imagePosition: "50% 20%"
 links:
   #github: "https://github.com/Project-MONAI/MONAI" 
   #writeup: "https://github.com/oscarbreiner"

@@ -22,7 +22,7 @@ interface Props {
 
 const { project } = Astro.props as Props;
 const { Content } = await render(project);
-const { title, description, date, tags, image } = project.data;
+const { title, description, date, tags, image, imagePosition } = project.data;
 const links = project.data.links ?? {};
 ---
 
@@ -33,7 +33,12 @@ const links = project.data.links ?? {};
     <SectionHeader title={title} subtitle={description} />
 
     <article class="surface-card overflow-hidden">
-      <img src={withBase(image)} alt={title} class="h-56 w-full border-b border-border object-cover sm:h-80" />
+      <img
+        src={withBase(image)}
+        alt={title}
+        class="h-56 w-full border-b border-border object-cover sm:h-80"
+        style={imagePosition ? `object-position: ${imagePosition};` : undefined}
+      />
       <div class="p-6 sm:p-8">
         <p class="font-mono text-[11px] uppercase tracking-wide text-muted">{date.getFullYear()}</p>
 
